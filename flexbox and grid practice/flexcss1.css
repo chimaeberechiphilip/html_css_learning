@@ -1,0 +1,133 @@
+*{
+    margin:0px
+}
+
+/*CSS script for the first section*/
+.container{
+    background-color: rgb(34, 34, 34);
+    height:50vh;
+
+    /* Grid stuff here*/
+    display:grid;
+
+    /*grid gives margin to grid*/
+    grid-gap:10px;
+    grid-template-columns:100px 100px 100px;
+    grid-template-rows:100px 100px 100px;
+}
+
+.s{
+    margin:10px;
+    padding:20px;
+    background: rgb(84, 84, 84);
+    text-align: center;
+    color:white;
+}
+
+/* Span header row and column element in .container class element*/
+
+.container header{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+/*CSS script for the second section*/
+.container1{
+    background-color: rgb(247, 195, 195);
+    height:50vh;
+
+    /* Grid stuff here*/
+    margin:50px 0px;
+    display:grid;
+    /* Increasing grid using repeat statement*/
+    grid-template-columns:repeat(4, 100px);
+    grid-template-rows:repeat(4,100px)
+
+}
+
+.s1{
+    padding:20px;
+    background: rgb(84, 84, 84);
+    text-align: center;
+    color:white;
+}
+
+.container1 header{
+    grid-column:1/3;
+   
+}
+
+/*CSS script for the second section*/
+.container2{
+    background-color: rgb(247, 195, 195);
+    height:50vh;
+
+    /* Grid stuff here*/
+    margin:50px 0px;
+    display:grid;
+    /* Increasing grid using repeat statement*/
+    grid-template-columns:100px, 100px, 100px;
+    grid-template-rows:100px, 100px, 100px;
+
+}
+
+.s2{
+    padding:20px;
+    background: rgb(84, 84, 84);
+    text-align: center;
+    color:white;
+}
+
+.container2 header{
+    grid-column:1/3;
+   
+}
+
+
+
+/*CSS script for the third section & grid with fitting grid and responsiveness*/
+.container2{
+    background-color: rgb(247, 255, 195);
+    height:50vh;
+
+    /* Grid stuff here*/
+    margin:50px 0px;
+    display:grid;
+    /* Increasing grid using repeat statement*/
+    grid-template-columns:1fr minmax(100px, 1fr) 1fr; /*minmax function helps you to control the minimum's and maxixum's increase screen size when increased or decreased*/
+    grid-template-rows:repeat(3, 1fr);
+    grid-gap:10px;
+
+}
+
+.s2{
+    padding:20px;
+    background: rgb(1, 76, 93);
+    text-align: center;
+    color:white;
+}
+
+
+/*CSS script for the third section & grid with fitting grid and responsiveness*/
+.container3{
+    background-color: rgb(220, 141, 142);
+    height:50vh;
+
+    /* Grid stuff here*/
+    margin:50px 0px;
+    display:grid;
+    /* Increasing grid using repeat statement*/
+    grid-template-columns:repeat(auto-fill, 200px);
+    grid-template-rows:repeat(3, 100px);
+    grid-gap:10px;
+
+}
+
+.s3{
+    padding:20px;
+    background: rgb(223, 166, 169);
+    text-align: center;
+    color:white;
+}
+

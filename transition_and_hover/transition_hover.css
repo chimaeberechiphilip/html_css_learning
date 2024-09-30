@@ -1,0 +1,31 @@
+.container{
+    height:100vh;
+    display: flex;
+    padding:0;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > a{
+    text-align: none;
+    border:2px solid red;
+    padding:10px 20px;
+    color: brown;
+
+    /* Transition */
+    transition-property: all; /* Transition Property means; What do you want to change */
+    /* You can specify what you want to change like this:
+    transition-property:background-color;
+    transition-property:color;
+     */
+     transition-duration: 1s;
+     /*transition-timing-function: ease-in;*/
+     transition-timing-function: ease-incubic-bezier(.17,.67,.67,.22);  /* cubic-bezier.com : in this website you*/
+    
+}
+
+.container >a:hover{
+    background-color: brown;
+    color: white;
+}

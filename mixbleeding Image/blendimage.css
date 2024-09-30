@@ -1,0 +1,44 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+/* Adding image in a div and mixing it with a color*/
+.container{
+    background: rgba(255, 0, 0, 0.177);
+    width: 100%;
+    height: 100vh;
+}
+
+.container .img{
+    background-image:url("istockphoto-1866732876-1024x1024.jpg");
+   
+    height: 100vh;
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    mix-blend-mode: multiply;
+    mix-blend-mode: darken;
+    mix-blend-mode: lighten;
+    mix-blend-mode: color-dodge; /* The parent element color must be faint */
+    mix-blend-mode: color-burn;
+    mix-blend-mode: difference;
+    mix-blend-mode: exclusion;
+    mix-blend-mode: hue;
+    mix-blend-mode: saturation;
+    mix-blend-mode: color;
+    mix-blend-mode: luminosity;
+}
+
+

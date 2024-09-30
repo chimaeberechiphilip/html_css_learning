@@ -1,0 +1,105 @@
+*{
+    margin:0px;
+}
+
+.container{
+    height:100vh;
+
+    display:grid;
+    padding:10px;
+    grid-gap:10px;
+    background-color:rgb(11, 44, 44);
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(6, 100px);
+    grid-template-areas: "h h h"
+    "m m m"
+    "m m m"
+    "s . a"
+    "f f f";
+
+    justify-content: center;
+    
+}
+
+.s{
+    background-color: azure; 
+    color:black;
+    align-content: center;
+    text-align: center;
+}
+
+header{
+    grid-area:h;
+}
+
+main{
+    grid-area:m;
+}
+
+.container section{
+    grid-area:s;
+}
+
+aside{
+    grid-area:a;
+}
+
+footer{
+    grid-area:f;
+}
+
+
+
+
+/*Creating your second layout */
+
+.container1{
+    height:100vh;
+
+    display:grid;
+    padding:10px;
+    grid-gap:10px;
+    background-color:rgb(11, 44, 44);
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(4, 100px);
+    grid-template-areas: "h h h"
+    "s m m"
+    "a m m"
+    "f f f";
+
+    justify-content: center;
+    
+}
+
+.s1{
+    background-color: azure; 
+    color:black;
+    align-content: center;
+    text-align: center;
+}
+
+header{
+    grid-area:h;
+}
+
+main{
+    grid-area:m;
+}
+
+.container section{
+    grid-area:s;
+}
+
+aside{
+    grid-area:a;
+}
+
+footer{
+    grid-area:f;
+}
+
+
+
+
+
+

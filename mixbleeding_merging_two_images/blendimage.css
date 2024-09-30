@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+/* Adding image in a div and mixing it with two colors*/
+.container{
+    background:linear-gradient(rgba(19, 95, 171, 0.177), rgba(255, 0, 0, 0.177));
+    width: 100%;
+    height: 100vh;
+}
+
+.container .img{
+    background-image:url("https://media.istockphoto.com/id/1649298438/fi/valokuva/iloinen-el%C3%A4kel%C3%A4ispariskunta-patikoimassa.jpg?s=1024x1024&w=is&k=20&c=84G1fSwd2bt_xnRB_8uAee1ngEK2fmvOhz_2CBphUs8="), url("https://images.unsplash.com/photo-1457301547464-91995555cd25?q=80&w=1796&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"), linear-gradient(steelblue, pink);
+   
+    height: 100vh;
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    background-blend-mode: multiply, screen;
+   
+}

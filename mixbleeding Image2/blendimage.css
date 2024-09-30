@@ -1,0 +1,34 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+
+
+
+/* Adding image in a div and mixing it with two colors*/
+.container{
+    background:linear-gradient(rgba(19, 95, 171, 0.177), rgba(255, 0, 0, 0.177));
+    width: 100%;
+    height: 100vh;
+}
+
+.container .img{
+    background-image:url("istockphoto-1866732876-1024x1024.jpg");
+   
+    height: 100vh;
+    margin:0; /* If you want no margin */
+    padding:0; /*if your want to padding */
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+  
+    mix-blend-mode: overlay;
+   
+}

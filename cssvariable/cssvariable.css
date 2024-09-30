@@ -1,0 +1,23 @@
+:root{
+    --bg-color1:red;
+    --font-color:14px;
+    --sub-bgcolor:blue;
+    --txtdecorate:dashed;
+    --txtfontcolor:yellow;
+}
+
+body{
+    background-color: var(--bg-color1);
+}
+
+p{
+    text-decoration: var(--txtdecorate);
+}
+
+h1{
+    color:var(--font-color)
+}
+
+h2{
+    background-color: var(--sub-bgcolor);
+}

@@ -1,0 +1,3 @@
+background videos: https://www.pexels.com/videos/
+linear gradient:   grabient.om
+CSS clio-path maker: https://bennettfeely.com/clippy/

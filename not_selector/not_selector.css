@@ -1,0 +1,25 @@
+body{
+    display: flex;
+    padding:0;
+    margin:0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content{
+    width: 40em;
+    margin: 0 auto;
+    background-color: rgb(18, 18, 18);
+    padding: 4rem;
+    color: white;
+    
+}
+
+.content .article_title a:not([href*="https://www.youtube.com/watch?v=mr6KiRizPDk"]){
+   text-decoration: none;
+    font-size: 14px;
+    color:yellow;
+}
+
+

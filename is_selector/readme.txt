@@ -1,0 +1,1 @@
+Is selector helps you to select multiple element with little CSS Code, check the code to see the example
